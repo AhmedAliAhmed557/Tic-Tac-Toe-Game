@@ -17,6 +17,7 @@
   transition: 0.2s;
   font-weight: bold;
   background-color: dodgerblue;
+  width: 310px;
 }
 .game h2 span {
   color: greenyellow;
@@ -40,6 +41,14 @@
   background-color: gray;
 }
 
+@media (max-width: 768px) {
+  .game {
+    width: 300px;
+  }
+  .square {
+    width: 96px;
+  }
+}
 /* <!-- Another Solution --> */
 /* .board {
   display: grid;
