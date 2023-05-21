@@ -1,0 +1,66 @@
+.game {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #eee;
+  font-family: system-ui;
+  width: 320px;
+  height: 410px;
+  text-align: center;
+  max-height: 100vh;
+}
+
+.game h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  height: 45px;
+  transition: 0.2s;
+  font-weight: bold;
+  background-color: dodgerblue;
+}
+.game h2 span {
+  color: greenyellow;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  float: left;
+  margin: 2px;
+  transition: 0.2s;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square:hover {
+  background-color: gray;
+}
+
+/* <!-- Another Solution --> */
+/* .board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.cell {
+  border: 1px solid black;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.x {
+  color: blue;
+}
+
+.o {
+  color: red;
+} */
